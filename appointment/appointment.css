@@ -1,0 +1,250 @@
+body{
+	margin: 0;
+	font-family: tahoma;	
+	background-color: f0eee0;
+	transition: 0.2s;
+	color: #333;
+}
+
+body *{
+	transition: 0.3s;
+}
+
+header{
+	
+	background-image: url('church.png');
+	background-size: 100%;
+	box-shadow: 0 0 10px 0 #444;
+
+}
+
+header div{
+	padding: 10px;
+	background-color: #000a;
+}
+
+header h1{
+	color: #a5f;
+
+}
+
+nav{
+	
+	text-align: center;
+	padding: 20px;
+	display: block;
+	
+	
+	margin: auto;
+}
+
+nav a{
+	padding: 10px;
+	transition: 0.2s;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: #83d;
+}
+a:hover{
+	color: #c5a;
+	transition: 0.2s;
+	
+}
+a:focus{
+	box-shadow: 0 0 5px 0 #83d;
+	color: #83d;
+	outline: none;
+}
+
+
+table{
+	min-width: 700px;
+	border-color: #bbb;
+	margin: auto;
+
+}
+
+table td{
+	padding: 10px;
+}
+
+
+.eachchurchrow:hover td{
+	background-color: #83d;
+	transition: 0.2s;
+
+}
+
+.eachchurchrow:hover a{
+	color: white;
+
+}
+.eachchurchrow a:focus{
+	outline: none;
+}
+
+.eachchurchrow>a:focus .eachchurchrow{
+	background-color: #83d;
+}
+
+.content{
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+form{
+	margin: auto;
+	text-align: center;
+	
+
+
+}
+
+
+
+form input, form textarea, form .input{
+	width: 50%;
+	padding: 10px;
+	border: none;
+	box-shadow: 0 0 10px -5px black;
+}
+
+form input:hover, form textarea:hover, form .input:hover{
+	
+	box-shadow: 0 0 5px 0 #83d;
+	
+}
+
+form input:focus, form textarea:focus, form .input:focus{
+	outline: none;
+	box-shadow: 0 0 10px 0 #83d;
+	border-bottom: 1px solid #83d;
+}
+
+.submit{
+	background-color: #ddd;
+	font-weight: bold;
+	color: inherit;
+	padding: 10px;
+}
+.submit:hover{
+	background-color: #83d;
+	color: white;
+	box-shadow: 0px 0px 10px 0px black;
+}
+.submit:focus{
+	background-color: #83d;
+	box-shadow: 0 0 5px 0 black;
+	color: white;
+}
+
+button{
+	background-color: #ddd;
+	font-weight: bold;
+	color: inherit;
+}
+button:hover{
+	background-color: #83d;
+	color: white;
+	box-shadow: 0px 0px 10px 0px black;
+}
+button:focus{
+	background-color: #83d;
+	box-shadow: 0 0 5px 0 black;
+	color: white;
+}
+
+.filter form{
+	float: right;
+	top: 80px;
+	right: 7px;
+	width: 200px;
+
+	
+}
+
+.filter form input{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.weekdays{
+	padding: 10px;
+
+	
+}
+
+.weekdays span{
+	padding: 10px;	
+}
+
+.weekdays span:hover{
+	background-color: #83d;
+	color: white;
+}
+
+#scheduleday{
+	display: none;
+}
+
+.scheduledate{
+	display: inline-block;
+	background-color: #ddd;
+	padding: 7px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: #333;
+
+}
+
+.inputexception{
+	width: 20px;
+}
+
+#signup{
+	padding: 8px;
+	border: 1px #83d solid;
+	border-radius: 3px;
+}
+#signup:hover{
+	background-color: #83d;
+	color: white;
+}
+
+#signin{
+	padding: 8px;
+	border: 1px #83d solid;
+	border-radius: 3px;
+	background-color: #83d6;
+}
+#signin:hover{
+	background-color: #83d;
+	color: white;
+}
+
+.search{
+	width: 400px;
+	display: inline;
+	float: right;
+}
+
+.search .submit{
+	width: 70px;
+	display: inline;
+}
+.search input{
+	display: inline;
+}
+
+.name{
+	text-transform: uppercase;
+}
+
+
+.tablehover:hover{
+	background-color: #b6fa !important;
+}
